@@ -3,13 +3,13 @@
 if(! function_exists('affiche_title')){
 
     function affiche_title($title){
-        $base_title = 'Laracarte-List of artisans';
+        $base_title = config('app.name').'-List of artisans';
 
         if ($title === '') {
             return $base_title;
         }
         else{
-            return $title.' | '.'Laracarte-List of artisans';
+            return $title.' | '.config('app.name').'-List of artisans';
         }
     }
 }

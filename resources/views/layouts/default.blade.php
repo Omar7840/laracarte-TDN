@@ -24,6 +24,8 @@
     @include('partials._footer')
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+    @include('flashy::message')
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -30,7 +30,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="nav-link {{ set_active_route('contact.create') }}" href="{{ route('contact.create') }}" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
         </ul>
         <ul class="navbar-nav">
